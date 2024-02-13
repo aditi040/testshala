@@ -1,0 +1,136 @@
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d2634;
+    color: #9e9ea4;
+    font-family: 'Baloo Bhai', cursive;
+    
+ }
+  
+  
+  .profile{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    /* box-sizing:100; */
+     /* border-radius: 10px;  */
+     background-color: #1d2634;
+     color: #9e9ea4;
+     margin-top: 20px;
+     
+    }
+  .profile h1{
+    align-items: center;
+    margin-top: 10px;
+  }
+  .profile-image {
+    max-width: 50px;
+    max-height: 50px;
+    border: 2px solid #ff4081;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table tr td {
+    padding: 15px 10px;
+    border: 1px solid #9e9ea4;
+  }
+  .mt20{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  .text-center{
+     align-items: center; 
+    text-align: center;
+   
+  }
+  .update button{
+    font-family: 'Baloo Bhai',cursive;
+    margin: 5px;
+  } 
+
+  .sidebar{
+    width:180px;
+    display: inline;
+    position: absolute;
+  
+}
+
+.list-group-item{
+  color: #000;
+  font-size: small;
+}
+.list-group a:hover{
+    background-color:#9e9ea4;
+    color: white;
+    cursor: pointer;
+}
+.nav-link{
+  color:#000;
+}
+/*Sidebar*/
+/* {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+} */
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  background:white;
+}
+.sidebar{
+  /* background:white; */
+  color: black;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:#9e9ea4;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: #9e9ea4;
+  color: #000;
+}
+.icon {
+  font-size: 20px;
+ 
+}
+.link_text{
+  color:#000;
+  font-size:20px ;
+}
