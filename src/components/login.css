@@ -1,6 +1,6 @@
 body{
-  background-color: #373737;
-  background-image: linear-gradient(to bottom, #5e5e5e, #373737);
+  background-color: #000000;
+  /* background-image: linear-gradient(to bottom, #5e5e5e, #373737); */
 }
 .login-container {
   color:#fff;

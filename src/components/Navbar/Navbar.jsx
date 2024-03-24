@@ -29,7 +29,7 @@ const Navbar= () => {
         <source src="pexels-mikhail-nilov-7534239 (Original).mp4" type="video/mp4"/ >
 </video> */}
         {/* You can add more content here */}
-        <img className="background-img" src="learning.jpg" alt="img"></img>
+        <img className="background-img" src="learning-4264032_1280.jpg" alt="img"></img>
       </div>
       <footer className="footer">
       <div className="footer-content">

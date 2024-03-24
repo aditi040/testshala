@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import Home from "./Home";
-import Profile from './Profile';
 import Sidebar from './Sidebar';
 function Main() {
   const[toggle,setToggle]= useState(true);
@@ -20,7 +19,7 @@ function Main() {
         
       </div>
     </div>
-    <Profile/>
+    {/* <Profile/> */}
   </div>
   );
 }
