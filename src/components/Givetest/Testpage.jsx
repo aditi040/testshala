@@ -42,6 +42,7 @@ currentQuestion=question[currentQuestionIndex];
 nextQuestion=question[currentQuestionIndex + 1];
 previousQuestion = question [currentQuestionIndex - 1];
 const answer = currentQuestion.answer;
+const score=(this.state.score / this.state.numberOfQuestion) *100;
 this.setState({
   currentQuestion: currentQuestion,
   nextQuestion: nextQuestion,
@@ -96,7 +97,7 @@ handlePreviousButtonClick =()=>{
 handleQuitButtonClick = () => {
   this.playButtonSound();
   if(window.confirm('Are you sure you want to finish the test?')) {
-this.props.navigate('/testresult')
+this.props.navigate('/testpage/result')
   }
 }
 
@@ -225,7 +226,8 @@ startTimer = () => {
       };
       console.log(playerStats);
       setTimeout(() =>{
-        this.props.navigate('/testresult')
+        this.props.navigate('/testpage/result',{playerStats})
+        // return(<TestResult playerStats={playerStats}/>)
       },1000);
   }
   render (){

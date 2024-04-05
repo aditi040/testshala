@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
-import Home from './Home';
+import EditQuestion from './EditQuestion';
 import Sidebar from './Sidebar';
-function Main() {
+function EditQuestiondetails() {
   const[toggle,setToggle]= useState(true);
   const Toggle=()=>{
     setToggle(!toggle);
@@ -15,16 +15,14 @@ function Main() {
       </div>}
       {toggle && <div className='col-2'></div>}
       <div className='col'>
-        <Home Toggle={Toggle}/>
-        {/* <Profile Toggle={Toggle}/> */}
+        <EditQuestion Toggle={Toggle}/>
       </div>
     </div>
-    {/* <Profile/> */}
   </div>
   );
 }
 
-export default Main;
+export default EditQuestiondetails;
 
 
 

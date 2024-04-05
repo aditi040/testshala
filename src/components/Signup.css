@@ -1,17 +1,17 @@
-html,body{
-  background-color: #000000;
-  background-image: linear-gradient(to bottom, #6e7079, #000000);
+body{
+  background-color: #ffffff;
+  /* background-image: linear-gradient(to bottom, #6e7079, #000000); */
   height:100%;
   margin:0;
   width: 100%;
 }
 .signup-container {
 
-  color: #fff;
+  color: #000000;
     max-width: 400px;
     margin: 20px auto;
     padding: 15px;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-radius: 10px;
     text-align:center;
   }

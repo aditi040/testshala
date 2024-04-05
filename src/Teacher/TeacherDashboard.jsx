@@ -4,8 +4,8 @@ import { GiSpellBook } from "react-icons/gi";
 import { IoHome, IoPersonCircleSharp } from "react-icons/io5";
 import { MdAddToPhotos, MdCategory, MdOutlineAddBox, MdQuiz } from "react-icons/md";
 import { Link } from "react-router-dom";
-import "./AdminDashboard.css";
-function Sidebar() {
+import '../Admin/AdminDashboard/AdminDashboard.css';
+function TeacherDashboard() {
 return (
 <div className='bg-white sidebar p-2'>
 <div className="m-2">
@@ -14,7 +14,7 @@ return (
 </div>
 <hr className="text-dark"/>
 <div className='list-group list-group-flush'>
-<Link to="/admindashboard"className="list-group-item list-group-itme-action py-2" activeclassName="active">
+<Link to="/teachermain" className="list-group-item list-group-itme-action py-2" activeclassName="active">
     <i className="bi bi-house fs-5 me-3"></i>
     <IoHome className="fs-5"/>Dashboard
     </Link>
@@ -38,7 +38,7 @@ return (
     <i className="bi bi-house fs-5 me-3"></i>
     <MdOutlineAddBox className="fs-5"/>Add Tests
     </Link>
-    <Link to="/viewquestiondetails" className="list-group-item list-group-itme-action py-2">
+    <Link to="/questiondetails" className="list-group-item list-group-itme-action py-2">
     <i className="bi bi-house fs-5 me-3"></i>
     <MdQuiz className="fs-5"/>View Questions
     </Link>
@@ -54,7 +54,7 @@ return (
 </div>
 );
 }
-export default Sidebar;
+export default TeacherDashboard;
 
 
 

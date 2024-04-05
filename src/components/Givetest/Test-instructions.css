@@ -1,14 +1,16 @@
 .instructions {
     border: 1px solid darken(white, 10%);
     border-radius: 5px;
-    margin-top: 3rem;
-    margin-bottom:3rem;
-    padding: 1.5rem 3rem;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 
     h1{
         color:black;
         font-size: 2rem;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .lifeline{
@@ -26,7 +28,21 @@
         width: 80%;
         height: 50%;
     }
+   
 }
+.link {
+    margin: 0 30px;
+    /* text-decoration: none;
+    color: white; */
+    justify-content: space-between;
+  }
+
+/* .left,
+.right {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+} */
 
 @media (max-width: 2rem-breakpoint) {
     .instructions img {

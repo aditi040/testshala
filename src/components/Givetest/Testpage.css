@@ -41,19 +41,19 @@ h5{
 }
 
 .option{
-   background-color:rgb(2, 169, 253);
-   border-radius:30px;
-   color:white;
-   cursor: pointer;
-   margin:2rem auto;
-   padding:10px;
-   transition:0.3s linear all;
-   text-align:center;
-   width:90%;
+background-color:rgb(2, 169, 253);
+border-radius:30px;
+color:white;
+cursor: pointer;
+margin:2rem auto;
+padding:10px;
+transition:0.3s linear all;
+text-align:center;
+width:90%;
 }
 
 .option:hover{
-    background-color:rgb(2, 154, 230);
+    background-color:rgb(1, 109, 162);
 }
 
 .button-container{
@@ -76,8 +76,8 @@ h5{
 }
 
 #previous-button{
-     background-color:rgb(2, 169, 253);
-     transition:0.2s linear all;
+    background-color:rgb(2, 169, 253);
+    transition:0.2s linear all;
 }
 
 #previous-button:hover{

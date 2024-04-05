@@ -1,11 +1,10 @@
 import React from 'react';
 import { BiSolidCategory } from "react-icons/bi";
-import { GiTeacher } from "react-icons/gi";
 import { IoPersonSharp } from "react-icons/io5";
 import { PiStudentFill } from "react-icons/pi";
 import { Link } from 'react-router-dom';
-import Header from "./Header";
-function Home({Toggle}) {
+import Header from '../Admin/AdminDashboard/Header';
+function TeacherHome({Toggle}) {
   return (
     <>
     <div className='px-3'>
@@ -35,7 +34,7 @@ function Home({Toggle}) {
             </div>
             </Link>
         </div>
-        <div className='col-md-3 p-1'>
+        {/* <div className='col-md-3 p-1'>
         <Link to="/teacherdashboard">
             <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
                 <div>
@@ -45,7 +44,7 @@ function Home({Toggle}) {
                 <i className='bi p-3 fs-1'><GiTeacher/></i>
             </div>
             </Link>
-        </div>
+        </div> */}
         <div className='col-md-3 p-1'>
         <Link to="/userdashboard">
             <div className='p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded'>
@@ -64,4 +63,4 @@ function Home({Toggle}) {
   );
 }
 
-export default Home;
+export default TeacherHome;
