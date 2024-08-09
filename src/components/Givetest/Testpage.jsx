@@ -216,7 +216,7 @@ startTimer = () => {
 
   endTest = () => {
       alert('Test has ended!');
-      const {state} = this;
+      const state = this.state;
       const playerStats ={
         score:state.score,
         numberOfQuestion:state.numberOfQuestion,
@@ -227,6 +227,7 @@ startTimer = () => {
       console.log(playerStats);
       setTimeout(() =>{
         this.props.navigate('/testpage/result',{playerStats})
+        // this.props.navigate('/testpage/result')
         // return(<TestResult playerStats={playerStats}/>)
       },1000);
   }

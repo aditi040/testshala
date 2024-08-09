@@ -5,7 +5,7 @@
       "optionB":" 3 × 105 K",
       "optionC":" 104 K",
       "optionD":" 800 K",
-      "answer":" 104 K"
+      "answer":" 650 K"
   },
   {
       "question":"A damped harmonic oscillator has a frequency of 5 oscillations per second. The amplitude drops to half its value for every 10 oscillations. The time it will take to drop to 11000 of the original amplitude is close to :-",
@@ -22,7 +22,7 @@
       "optionB":" t = T/log(1.3) ",
       "optionC":" t = T log2/2log1.3 ",
       "optionD":" t = T (log1.3/log2)",
-      "answer":"t = T/log(1.3)"
+      "answer":" t = T log2/2log1.3 "
   },
 
   {
@@ -30,8 +30,8 @@
       "optionA":"104 Nm–2",
       "optionB":"108 Nm–2",
       "optionC":"106 Nm–2 ",
-      "optionD":" 103 Nm–2",
-      "answer":"106 Nm–2"
+      "optionD":"103 Nm–2",
+      "answer":"103 Nm–2"
 
   },
 

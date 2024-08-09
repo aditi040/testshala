@@ -1,7 +1,7 @@
 function Validation(values) {
     let error = {}
     const username_pattern = /^[a-z0-9]{5,15}$/
-    const password_pattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/
+    const password_pattern = /^(?=.\d)(?=.[a-z])(?=.[A-Z])(?=.[!@#$%^&*]).{8,}$/
     const name_pattern=/^([a-zA-Z]{2,}[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}([a-zA-Z]{1,})?)$/
     const email_pattern=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     const phone_pattern=/^[1-9]{1}[0-9]{9}$/;

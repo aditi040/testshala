@@ -20,7 +20,8 @@ import UserMain from "./Student/Usermain";
 import TeacherDashboard from "./Teacher/TeacherDashboard";
 import TeacherMain from "./Teacher/TeacherMain";
 import TestInstructions from "./components/Givetest/TestInstructions";
-import { TestResult, TestResultProvider } from "./components/Givetest/TestResult";
+import TestResult from "./components/Givetest/TestResult";
+import TestResult1 from "./components/Givetest/TestResult1";
 import { APPWithRouter } from "./components/Givetest/Testpage";
 import Testpage1 from "./components/Givetest/Testpage1";
 import AboutUs from "./components/Navbar/AboutUs";
@@ -51,7 +52,14 @@ const App=()=> {
     <Route path="/sidebar" element={<Sidebar/>}/>
     <Route path="/testpage" element={<APPWithRouter/>}/>
     <Route path="/testpage1" element={<Testpage1/>}/>
-    <Route path="/testpage/result" element={<><TestResultProvider/>,<TestResult/></>}/>
+    {/* <Route path="/testpage/result" element={<><TestResultProvider/>,<TestResult/></>}/> */}
+    <Route path="/testpage/result" element={<TestResult/>}/>
+    <Route path="/testpage/result1" element={<TestResult1
+                        score={33}
+                        numberOfQuestions={15}
+                        correctAnswers={5}
+                        wrongAnswers={10}
+                    />}/>
     <Route path="/testinstructions" element={<TestInstructions/>}/>
     <Route path="/userdashboard" element={<UserDashboard/>}/>
     <Route path="/userprofile" element={<UserProfile/>}/>

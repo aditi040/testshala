@@ -44,7 +44,7 @@ getData();
                     <th>Name of Test</th>
                     <th>Description</th>
                     {/* <th>Edit</th> */}
-                    <th>Delete</th>
+                    <th>Give Test</th>
                     </tr>
                     </thead>
                     <tbody>
