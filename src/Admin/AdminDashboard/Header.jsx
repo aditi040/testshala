@@ -12,13 +12,13 @@ function Header({Toggle}) {
       <div className="collapse navbar-collapse" id="collapsibleNavId">
         <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Person
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Profile</a></li>
-            <li><a className="dropdown-item" href="#">Settings</a></li>
-            <li><a className="dropdown-item" href="#">Logout</a></li>
+            <li><a className="dropdown-item" >Profile</a></li>
+            <li><a className="dropdown-item" >Settings</a></li>
+            <li><a className="dropdown-item" >Logout</a></li>
           </ul>
         </li>
         </ul>
