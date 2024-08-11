@@ -46,7 +46,7 @@ return (
     <i className="bi bi-house fs-5 me-3"></i>
     <MdAddToPhotos className="fs-5"/>Add Question
     </Link>
-    <Link className="list-group-item list-group-itme-action py-2">
+    <Link to="/" className="list-group-item list-group-itme-action py-2">
     <i className="bi bi-house fs-5 me-3"></i>
     <BiLogOut className="fs-5"/>Logout
     </Link>

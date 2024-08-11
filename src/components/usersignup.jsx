@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Signup.css';
 
-function Signup() {
+function UserSignup() {
  
   const [values, setValues] = useState({
     username: '',
@@ -26,7 +26,7 @@ function Signup() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Navigate to the login page directly without validation
-    navigate("/login");
+    navigate("/userlogin");
   }
 
   return (
@@ -95,4 +95,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default UserSignup;

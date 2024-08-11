@@ -29,6 +29,8 @@ import ContactUs from "./components/Navbar/ContactUs";
 import Navbar from "./components/Navbar/Navbar";
 import Signup from "./components/Signup";
 import Login from "./components/login";
+import UserLogin from "./components/userlogin";
+import UserSignup from "./components/usersignup";
 import Bar from "./pages/admin/bar";
 const App=()=> {
   return (
@@ -38,7 +40,9 @@ const App=()=> {
     <Routes>
     <Route path="/" element={<Navbar />}/>
     <Route path="/login" element={<Login />}/>
+    <Route path="/userlogin" element={<UserLogin />}/>
     <Route path="/signup" element={<Signup />}/>
+    <Route path="/usersignup" element={<UserSignup />}/>
     <Route path="/admindashboard" element={<Main/>}/>
     <Route path="/profile" element={<Main2/>}/>
     <Route path="/aboutus" element={<AboutUs/>}/>

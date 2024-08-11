@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import './login.css';
 
-function Login () {
+function UserLogin () {
   const [values, setValues] = useState({
     username: '',
     password: ''
@@ -21,7 +21,7 @@ function Login () {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Navigate to the dashboard directly without validation
-    navigate("/sidebar");
+    navigate("/userdashboard");
   }
 
   return (
@@ -51,11 +51,11 @@ function Login () {
             Continue
           </button>
           <p>Don't have an account?</p>
-          <Link to="/signup">Create an account</Link>
+          <Link to="/usersignup">Create an account</Link>
         </form>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default UserLogin;
